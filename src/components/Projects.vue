@@ -1,10 +1,11 @@
 <template>
-  <section id="projects">
+  <section class="section">
     <h3>Mes Projets</h3>
-    <ul>
+    <ul class="projects-list">
       <li v-for="project in projects" :key="project.title">
-        <a :href="project.link" target="_blank">{{ project.title }}</a>
+        <strong>{{ project.title }}</strong>
         <p>{{ project.description }}</p>
+        <a :href="project.link" target="_blank">Voir plus →</a>
       </li>
     </ul>
   </section>
@@ -19,9 +20,3 @@ const projects = ref([
   { title: "Projet 3", description: "Description du projet 3", link: "#" },
 ]);
 </script>
-
-<style scoped>
-ul {
-  list-style: none;
-}
-</style>

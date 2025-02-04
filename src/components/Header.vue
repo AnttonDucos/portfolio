@@ -1,5 +1,6 @@
 <template>
   <header>
+    <img :src="photo" alt="Photo de profil" class="profile-pic" />
     <h1>{{ name }}</h1>
     <h2>{{ jobTitle }}</h2>
   </header>
@@ -7,14 +8,8 @@
 
 <script setup>
 import { ref } from "vue";
+import photo from "../assets/profile.jpg";
 
-const name = ref("Ducos Antton");
+const name = ref("Antton Ducos");
 const jobTitle = ref("IT developer");
 </script>
-
-<style scoped>
-header {
-  text-align: center;
-  margin-bottom: 20px;
-}
-</style>
