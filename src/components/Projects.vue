@@ -28,24 +28,30 @@
 
 <script setup>
 import { ref } from "vue";
-import projet1 from "../assets/project1.png";
+import project1 from "../assets/project1.png";
+import project2 from "../assets/project2.png";
 import c_logo from "../assets/C_Logo.png";
+import cpp_logo from "../assets/cpp_logo.png";
+import python_logo from "../assets/Python-logo.png";
+import mongo_logo from "../assets/mongo_logo.png";
+import postman_logo from "../assets/postman_logo.webp";
+import js_logo from "../assets/javascript_logo.png";
 
 const projects = ref([
   {
-    title: "A-Mazed",
+    title: "MDM Shazam",
     description: "The project aims to develop a strategy for multiple robots to navigate a maze as quickly as possible. The goal is to optimize their movements so that all robots reach the exit in the shortest time.",
     image: "/src/assets/project1.png",
     link: "#",
-    technologies: [c_logo, c_logo],
-    tools: [c_logo],
+    technologies: [cpp_logo, python_logo, js_logo],
+    tools: [mongo_logo, postman_logo],
   },
   {
-    title: "Projet 2",
-    description: "Description du projet 2",
-    image: "/src/assets/projet2.jpg",
+    title: "A-Mazed",
+    description: "The project aims to develop a strategy for multiple robots to navigate a maze as quickly as possible. The goal is to optimize their movements so that all robots reach the exit in the shortest time.",
+    image: project2,
     link: "#",
-    technologies: [],
+    technologies: [c_logo],
     tools: [],
   },
   {

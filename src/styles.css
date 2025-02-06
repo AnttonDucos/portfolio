@@ -4,6 +4,48 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
+    text-align: center;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    padding: 20px;
+}
+
+.profile-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+}
+
+.profile-left img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #0073e6;
+}
+
+.profile-left h2 {
+    margin: 10px 0 5px;
+    font-size: 1.5em;
+}
+
+.profile-left p {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #aaaaaa;
+}
+
+.profile-right {
+    flex: 2;
+    padding-left: 20px;
+    text-align: justify;
 }
 
 .container {
@@ -76,9 +118,8 @@ h2 {
 }
 
 .project img {
-    width: 180px;
-    height: auto;
-    max-height: 100%;
+    height: 180px;
+    width: auto;
     border-radius: 15px;
     object-fit: contain;
     margin: 10px;
@@ -139,6 +180,6 @@ h2 {
 }
 
 .tech-stack img, .tool-list img {
-    width: 30px;
+    width: 40px;
     height: auto;
 }
