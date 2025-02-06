@@ -47,27 +47,6 @@ my-portfolio/
 ## Customization
 You can modify the files in `src/components/` to personalize your portfolio (name, projects, contacts, styles, etc.).
 
-## Deployment
-### Using Vercel
-1. Install Vercel CLI
-   ```sh
-   npm install -g vercel
-   ```
-2. Deploy
-   ```sh
-   vercel
-   ```
-
-### Using Netlify
-1. Install Netlify CLI
-   ```sh
-   npm install -g netlify-cli
-   ```
-2. Deploy
-   ```sh
-   netlify deploy
-   ```
-
 ## Author
 - **Antton Ducos* - [GitHub](https://github.com/yourprofile) - [LinkedIn](https://www.linkedin.com/in/antton-ducos/)
 
