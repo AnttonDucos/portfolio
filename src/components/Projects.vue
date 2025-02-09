@@ -2,7 +2,7 @@
   <section class="section">
     <h3>My Projects</h3>
     <div v-for="(project, index) in projects" :key="index" class="project">
-      <img :src="project.image" :alt="project.title" />
+      <img v-if="project.image" :src="project.image"/>
       <div class="project-content">
         <h4>{{ project.title }}</h4>
         <p>{{ project.description }}</p>
@@ -36,13 +36,16 @@ import python_logo from "../assets/Python-logo.png";
 import mongo_logo from "../assets/mongo_logo.png";
 import postman_logo from "../assets/postman_logo.webp";
 import js_logo from "../assets/javascript_logo.png";
+import vue_logo from "../assets/vue.svg";
+import css_logo from "../assets/css_logo.png";
+import html_logo from "../assets/html_logo.png";
 
 const projects = ref([
   {
     title: "MDM Shazam",
-    description: "The project aims to develop a strategy for multiple robots to navigate a maze as quickly as possible. The goal is to optimize their movements so that all robots reach the exit in the shortest time.",
-    image: "/src/assets/project1.png",
-    link: "#",
+    description: "The goal of this project was to analyze an image to identify all the furniture present and match them with references from the Maisons du Monde catalog. If an exact match was unavailable, a similar reference was suggested to facilitate identification and purchase.",
+    image: project1,
+    link: "https://shazzam-mdm.rhinov.fr/",
     technologies: [cpp_logo, python_logo, js_logo],
     tools: [mongo_logo, postman_logo],
   },
@@ -55,12 +58,11 @@ const projects = ref([
     tools: [],
   },
   {
-    title: "Projet 3",
-    description: "Description du projet 3",
-    image: "/src/assets/projet3.jpg",
+    title: "This portfolio",
+    description: "The goal of this project was to create an interactive and visually appealing web portfolio to showcase my work. It was designed to highlight my projects, background, and skills through a sleek, modern, and user-friendly interface.",
     link: "#",
-    technologies: [],
-    tools: [],
+    technologies: [js_logo, css_logo, html_logo],
+    tools: [vue_logo],
   },
 ]);
 </script>
