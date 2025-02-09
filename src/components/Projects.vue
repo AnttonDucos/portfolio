@@ -60,7 +60,7 @@ const projects = ref([
   {
     title: "This portfolio",
     description: "The goal of this project was to create an interactive and visually appealing web portfolio to showcase my work. It was designed to highlight my projects, background, and skills through a sleek, modern, and user-friendly interface.",
-    link: "#",
+    link: "https://github.com/AnttonDucos/portfolio",
     technologies: [js_logo, css_logo, html_logo],
     tools: [vue_logo],
   },

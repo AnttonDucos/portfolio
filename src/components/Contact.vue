@@ -19,6 +19,6 @@ import { ref } from "vue";
 const contact = ref({
   email: "antton.ducos@gmail.com",
   linkedin: "https://linkedin.com/in/antton-ducos",
-  github: "https://github.com/antton-ducos",
+  github: "https://github.com/AnttonDucos/",
 });
 </script>
