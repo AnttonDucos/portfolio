@@ -1,0 +1,20 @@
+{
+  "title": "Mes Projets",
+  "more": "En savoir plus →",
+  "stack": "Technos",
+  "tools": "Outils",
+  "items": {
+    "mdm": {
+      "title": "MDM Shazam",
+      "description": "Ce projet vise à analyser une image pour identifier tous les meubles présents et les faire correspondre avec le catalogue \"Maisons du Monde\". Si une correspondance exacte est introuvable, une alternative similaire est proposée."
+    },
+    "amazed": {
+      "title": "A-Mazed",
+      "description": "Ce projet développe une stratégie pour permettre à plusieurs robots de sortir d'un labyrinthe le plus rapidement possible en optimisant leurs déplacements."
+    },
+    "portfolio": {
+      "title": "Ce portfolio",
+      "description": "Ce projet a pour but de créer un portfolio web interactif et moderne pour présenter mes projets, mon parcours et mes compétences."
+    }
+  }
+}

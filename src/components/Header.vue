@@ -1,28 +1,41 @@
 <template>
   <header>
+    <button @click="switchLang">{{ t('header.switch') }}</button>
     <section class="profile-section">
-      <div class="profile-left">
-        <img src="../assets/profile.jpg" alt="Photo de profil" />
-        <h2>Antton Ducos</h2>
-        <p>IT Developer</p>
-      </div>
+      <div/>
+        <div class="profile-left">
+          <img :src="photo" alt="Photo de profil" />
+          <!-- <h2>{{ t('header.name') }}</h2>
+          <p>{{ t('header.title') }}</p> -->
+        </div>
 
-      <div class="profile-right">
-        <p>
-          Passionate about computer science and mathematics,
-          I enjoy algorithm design and solving complex problems with logical and optimized approaches. 
-          thrive on developing efficient solutions, analyzing data structures, and optimizing systems,
-          always seeking to learn and apply my skills to real-world challenges.
-        </p>
-      </div>
+        <div class="profile-right">
+          <p>{{ t('header.description') }}</p>
+        </div>
+      <div/>
     </section>
   </header>
 </template>
 
 <script setup>
-import { ref } from "vue";
-import photo from "../assets/profile.jpg";
+import { useI18n } from 'vue-i18n';
+import { onMounted } from 'vue';
+import { loadLocaleMessages } from '../i18n';
+import photo from '../assets/profile.jpg';
 
-const name = ref("Antton Ducos");
-const jobTitle = ref("IT developer");
+const { t, locale } = useI18n();
+
+const scopes = ['header', 'projects', 'studies', 'hobbies', 'contact'];
+
+onMounted(async () => {
+  await Promise.all(scopes.map(scope => loadLocaleMessages(locale.value, scope)));
+});
+
+async function switchLang() {
+  const newLocale = locale.value === 'fr' ? 'en' : 'fr';
+  locale.value = newLocale;
+  localStorage.setItem('lang', newLocale);
+
+  await Promise.all(scopes.map(scope => loadLocaleMessages(newLocale, scope)));
+}
 </script>

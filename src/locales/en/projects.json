@@ -1,0 +1,20 @@
+{
+  "title": "My Projects",
+  "more": "More →",
+  "stack": "Stacks",
+  "tools": "Tools",
+  "items": {
+    "mdm": {
+      "title": "MDM Shazam",
+      "description": "The goal of this project was to analyze an image to identify all the furniture present and match them with references from the \"Maisons du Monde\" catalog. If an exact match was unavailable, a similar reference was suggested to facilitate identification and purchase."
+    },
+    "amazed": {
+      "title": "A-Mazed",
+      "description": "The project aims to develop a strategy for multiple robots to navigate a maze as quickly as possible. The goal is to optimize their movements so that all robots reach the exit in the shortest time."
+    },
+    "portfolio": {
+      "title": "This portfolio",
+      "description": "The goal of this project was to create an interactive and visually appealing web portfolio to showcase my work. It was designed to highlight my projects, background, and skills through a sleek, modern, and user-friendly interface."
+    }
+  }
+}

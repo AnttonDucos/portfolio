@@ -1,0 +1,15 @@
+{
+  "title": "Mes Études",
+  "items": {
+    "study1": {
+      "name": "Licence Informatique",
+      "university": "Epitech Bordeaux",
+      "dates": "Septembre 2023 - Aujourd'hui"
+    },
+    "study2": {
+      "name": "Licence de Mathématiques Pures",
+      "university": "Université de Bordeaux",
+      "dates": "Septembre 2019 - Mai 2023"
+    }
+  }
+}

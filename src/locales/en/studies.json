@@ -1,0 +1,15 @@
+{
+  "title": "My Studies",
+  "items": {
+    "study1": {
+      "name": "Computer Science Degree",
+      "university": "Epitech Bordeaux",
+      "dates": "September 2023 - Now"
+    },
+    "study2": {
+      "name": "Bachelor's Degree in Pure Mathematics",
+      "university": "University of Bordeaux",
+      "dates": "September 2019 - May 2023"
+    }
+  }
+}
