@@ -3,6 +3,9 @@
   "items": {
     "sport": "Playing sports",
     "association": "Volunteering in associations",
-    "dj": "Mixing music / DJing"
+    "dj": "Mixing music / DJing",
+    "sport_description": "Sports play a key role in my life. They help me maintain a healthy lifestyle, build discipline, and release stress. Whether it's team games or solo challenges, I love pushing my limits.",
+    "association_description": "Being involved in volunteer associations allows me to contribute to causes I care about, connect with people, and grow both personally and socially. I believe in the power of community action.",
+    "dj_description": "Music is my creative outlet. As a DJ, I love blending sounds, setting the vibe, and creating memorable experiences. It's both a passion and a way to connect with others through rhythm and emotion."
   }
 }

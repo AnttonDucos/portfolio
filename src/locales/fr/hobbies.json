@@ -1,8 +1,11 @@
 {
   "title": "Mes loisirs",
   "items": {
-    "sport": "Pratique sportive",
+    "sport": "Pratiquer du sport",
     "association": "Engagement associatif",
-    "dj": "Mix / DJ"
+    "dj": "Mix / DJing",
+    "sport_description": "Le sport occupe une place essentielle dans ma vie. Il m'aide à garder une bonne hygiène de vie, à développer ma rigueur et à me libérer du stress. J'aime relever des défis, en solo comme en équipe.",
+    "association_description": "M'investir dans le milieu associatif me permet de soutenir des causes qui me tiennent à cœur, de rencontrer des personnes inspirantes et de contribuer à des projets collectifs enrichissants.",
+    "dj_description": "La musique est mon échappatoire créative. En tant que DJ, j'adore créer des ambiances, mélanger des sons et transmettre des émotions. C'est un vrai moyen d'expression et de partage."
   }
 }
