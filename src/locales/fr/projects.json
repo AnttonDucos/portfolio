@@ -6,7 +6,7 @@
   "items": {
     "mdm": {
       "title": "MDM Shazam",
-      "description": "Ce projet vise à analyser une image pour identifier tous les meubles présents et les faire correspondre avec le catalogue \"Maisons du Monde\". Si une correspondance exacte est introuvable, une alternative similaire est proposée."
+      "description": "Ce projet vise à analyser une image pour identifier tous les meubles présents et les faire correspondre avec le catalogue \"Maisons du Monde\". Si une correspondance exacte est introuvable, une alternative similaire est proposée. (Down)"
     },
     "amazed": {
       "title": "A-Mazed",
