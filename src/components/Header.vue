@@ -5,8 +5,6 @@
       <div/>
         <div class="profile-left">
           <img :src="photo" alt="Photo de profil" />
-          <!-- <h2>{{ t('header.name') }}</h2>
-          <p>{{ t('header.title') }}</p> -->
         </div>
 
         <div class="profile-right">

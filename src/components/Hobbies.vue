@@ -30,3 +30,45 @@ onMounted(async () => {
   await loadLocaleMessages(locale.value, 'hobbies');
 });
 </script>
+
+<style scoped>
+.wrapper {
+    display: flex;
+    width: 80%px;
+    height: 350px;
+    border-radius: 15px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    flex: 1;
+    height: 100%;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(4px) grayscale(100%);
+    transition: all 0.5s ease;
+}
+
+.card:hover {
+    flex: 3;
+    cursor: auto;
+}
+
+.card:hover img {
+    filter: grayscale(0%);
+}
+
+.card:hover::after {
+    opacity: 0.5;
+}
+</style>
