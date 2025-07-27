@@ -56,8 +56,9 @@ import { ref, onMounted } from "vue";
 import { useI18n } from "vue-i18n";
 import { loadLocaleMessages } from "../i18n";
 
-import project1 from "../assets/project1.png";
-import project2 from "../assets/project2.png";
+import project1 from "../assets/raytracer.jpg"
+import project2 from "../assets/project1.png";
+import project3 from "../assets/project2.png";
 import c_logo from "../assets/C_Logo.png";
 import cpp_logo from "../assets/cpp_logo.png";
 import python_logo from "../assets/Python-logo.png";
@@ -67,13 +68,24 @@ import js_logo from "../assets/javascript_logo.png";
 import vue_logo from "../assets/vue.svg";
 import css_logo from "../assets/css_logo.png";
 import html_logo from "../assets/html_logo.png";
+import cmake from "../assets/cmake.png"
+import makefile from "../assets/makefile.png"
 
 const { t, locale } = useI18n();
 
 const projects = ref([
   {
-    key: "mdm",
+    key: "raytracer",
     image: project1,
+    link: "https://github.com/dawpitech/raytracer",
+    technologies: [
+      { src: cpp_logo, name: "C++" },
+    ],
+    tools: [{ src: cmake, name: "CMake" }],
+  },
+  {
+    key: "mdm",
+    image: project2,
     link: "https://shazzam-mdm.rhinov.fr/",
     technologies: [
       { src: cpp_logo, name: "C++" },
@@ -87,20 +99,10 @@ const projects = ref([
   },
   {
     key: "amazed",
-    image: project2,
+    image: project3,
     link: "#",
     technologies: [{ src: c_logo, name: "C" }],
-    tools: [],
-  },
-  {
-    key: "portfolio",
-    link: "https://github.com/AnttonDucos/portfolio",
-    technologies: [
-      { src: js_logo, name: "JavaScript" },
-      { src: css_logo, name: "CSS" },
-      { src: html_logo, name: "HTML" },
-    ],
-    tools: [{ src: vue_logo, name: "Vue.js" }],
+    tools: [{ src : makefile, name: "Makefile"}],
   },
 ]);
 

@@ -12,9 +12,9 @@
       "title": "A-Mazed",
       "description": "Ce projet développe une stratégie pour permettre à plusieurs robots de sortir d'un labyrinthe le plus rapidement possible en optimisant leurs déplacements."
     },
-    "portfolio": {
-      "title": "Ce portfolio",
-      "description": "Ce projet a pour but de créer un portfolio web interactif et moderne pour présenter mes projets, mon parcours et mes compétences."
+    "raytracer": {
+      "title": "Raytracer",
+      "description": "Ce projet consiste en la création d'un moteur de rendu par lancer de rayons (raytracer) développé en C++. Le ray tracing est une technique de rendu réaliste basée sur la simulation du trajet des rayons lumineux dans une scène 3D. L'objectif est de générer des images synthétiques photoréalistes en modélisant les interactions entre la lumière, les objets et la caméra."
     }
   }
 }
